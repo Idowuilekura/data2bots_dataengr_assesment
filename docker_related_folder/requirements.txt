@@ -1,0 +1,4 @@
+pandas 
+git+https://github.com/weatherapicom/python
+psycopg2-binary
+sqlalchemy
