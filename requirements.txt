@@ -1,4 +1,7 @@
 pandas 
-git+https://github.com/weatherapicom/python
 psycopg2-binary
 sqlalchemy
+dbt-postgres 
+boto3
+fsspec 
+s3fs==2021.08.0 

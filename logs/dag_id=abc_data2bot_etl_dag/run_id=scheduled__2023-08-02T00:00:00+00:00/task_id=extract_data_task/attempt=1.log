@@ -1,0 +1,72 @@
+[2023-08-03T07:30:39.106+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:30:39.112+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:30:39.113+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:30:39.125+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T07:30:39.131+0000] {standard_task_runner.py:57} INFO - Started process 1354 to run task
+[2023-08-03T07:30:39.135+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmp1zpww5ek']
+[2023-08-03T07:30:39.135+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask extract_data_task
+[2023-08-03T07:30:39.177+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:30:39.274+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T07:30:47.164+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:30:47.189+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T073039, end_date=20230803T073047
+[2023-08-03T07:30:47.244+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T07:34:10.973+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:34:10.979+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:34:10.980+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:34:10.992+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T07:34:10.998+0000] {standard_task_runner.py:57} INFO - Started process 3431 to run task
+[2023-08-03T07:34:11.001+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpuo13ixi5']
+[2023-08-03T07:34:11.002+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask extract_data_task
+[2023-08-03T07:34:11.049+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:34:11.146+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T07:34:19.147+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:34:19.165+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T073410, end_date=20230803T073419
+[2023-08-03T07:34:19.201+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T07:44:30.049+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:44:30.060+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:44:30.060+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:44:30.074+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T07:44:30.082+0000] {standard_task_runner.py:57} INFO - Started process 9411 to run task
+[2023-08-03T07:44:30.085+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpz4hfeoub']
+[2023-08-03T07:44:30.086+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask extract_data_task
+[2023-08-03T07:44:30.135+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:44:30.225+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T07:44:35.730+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:44:35.749+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T074430, end_date=20230803T074435
+[2023-08-03T07:44:35.786+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T07:50:22.662+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:50:22.671+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:50:22.671+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:50:22.685+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T07:50:22.690+0000] {standard_task_runner.py:57} INFO - Started process 12792 to run task
+[2023-08-03T07:50:22.693+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpqj0ha4gn']
+[2023-08-03T07:50:22.693+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask extract_data_task
+[2023-08-03T07:50:22.738+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:50:22.814+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T07:50:28.316+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:50:28.336+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T075022, end_date=20230803T075028
+[2023-08-03T07:50:28.394+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T07:53:13.662+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:53:13.670+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T07:53:13.671+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:53:13.685+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T07:53:13.691+0000] {standard_task_runner.py:57} INFO - Started process 14586 to run task
+[2023-08-03T07:53:13.693+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpenybm9ls']
+[2023-08-03T07:53:13.694+0000] {standard_task_runner.py:85} INFO - Job 38: Subtask extract_data_task
+[2023-08-03T07:53:13.739+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:53:13.829+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T07:53:18.713+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:53:18.732+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T075313, end_date=20230803T075318
+[2023-08-03T07:53:18.756+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T08:10:47.150+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T08:10:47.161+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [queued]>
+[2023-08-03T08:10:47.161+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T08:10:47.201+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 00:00:00+00:00
+[2023-08-03T08:10:47.206+0000] {standard_task_runner.py:57} INFO - Started process 24439 to run task
+[2023-08-03T08:10:47.209+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'scheduled__2023-08-02T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpmzpew1ln']
+[2023-08-03T08:10:47.210+0000] {standard_task_runner.py:85} INFO - Job 50: Subtask extract_data_task
+[2023-08-03T08:10:47.285+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task scheduled__2023-08-02T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-03T08:10:47.418+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-02T00:00:00+00:00'
+[2023-08-03T08:11:16.533+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T08:11:16.550+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T000000, start_date=20230803T081047, end_date=20230803T081116
+[2023-08-03T08:11:16.602+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0

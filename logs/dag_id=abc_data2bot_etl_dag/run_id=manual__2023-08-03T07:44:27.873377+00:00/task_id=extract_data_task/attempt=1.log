@@ -1,0 +1,12 @@
+[2023-08-03T07:44:29.894+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-03T07:44:27.873377+00:00 [queued]>
+[2023-08-03T07:44:29.905+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-03T07:44:27.873377+00:00 [queued]>
+[2023-08-03T07:44:29.905+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T07:44:29.921+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-03 07:44:27.873377+00:00
+[2023-08-03T07:44:29.930+0000] {standard_task_runner.py:57} INFO - Started process 9405 to run task
+[2023-08-03T07:44:29.933+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'manual__2023-08-03T07:44:27.873377+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpjn7brjk2']
+[2023-08-03T07:44:29.934+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask extract_data_task
+[2023-08-03T07:44:29.993+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-03T07:44:27.873377+00:00 [running]> on host d75389520dc6
+[2023-08-03T07:44:30.089+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-03T07:44:27.873377+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-03T07:44:27.873377+00:00'
+[2023-08-03T07:44:42.664+0000] {python.py:183} INFO - Done. Returned value was: {'orders': '/opt/***/orders_data/orders.csv', 'reviews': '/opt/***/orders_data/reviews.csv', 'shipment_deliveries': '/opt/***/orders_data/shipment_deliveries.csv'}
+[2023-08-03T07:44:42.682+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230803T074427, start_date=20230803T074429, end_date=20230803T074442
+[2023-08-03T07:44:42.726+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0

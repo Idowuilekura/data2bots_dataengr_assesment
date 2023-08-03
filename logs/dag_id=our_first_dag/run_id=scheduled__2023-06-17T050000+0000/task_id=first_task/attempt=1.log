@@ -1,0 +1,25 @@
+[2023-06-17T06:00:06.387+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-17T05:00:00+00:00 [queued]>
+[2023-06-17T06:00:06.404+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-17T05:00:00+00:00 [queued]>
+[2023-06-17T06:00:06.406+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-17T06:00:06.428+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): first_task> on 2023-06-17 05:00:00+00:00
+[2023-06-17T06:00:06.434+0000] {standard_task_runner.py:57} INFO - Started process 16161 to run task
+[2023-06-17T06:00:06.445+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag', 'first_task', 'scheduled__2023-06-17T05:00:00+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/hello_dag.py', '--cfg-path', '/tmp/tmpad5xgrk6']
+[2023-06-17T06:00:06.446+0000] {standard_task_runner.py:85} INFO - Job 156: Subtask first_task
+[2023-06-17T06:00:06.518+0000] {task_command.py:410} INFO - Running <TaskInstance: our_first_dag.first_task scheduled__2023-06-17T05:00:00+00:00 [running]> on host c52f9af30578
+[2023-06-17T06:00:06.641+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='our_first_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-06-17T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-17T05:00:00+00:00'
+[2023-06-17T06:00:07.179+0000] {logging_mixin.py:149} INFO -    index              time  temp_c  ...  dewpoint_c will_it_rain  will_it_snow
+0      0  2022-07-01 08:00    14.1  ...        11.7            0             0
+1      1  2022-07-01 09:00    14.8  ...        11.6            0             0
+2      2  2022-07-01 10:00    15.7  ...         9.6            0             0
+3      3  2022-07-01 11:00    18.2  ...         8.2            0             0
+4      4  2022-07-01 12:00    20.7  ...         6.7            0             0
+5      5  2022-07-01 13:00    20.4  ...         8.4            0             0
+6      6  2022-07-01 14:00    20.2  ...        10.2            0             0
+7      7  2022-07-01 15:00    19.9  ...        11.9            0             0
+8      8  2022-07-01 16:00    19.4  ...        11.6            0             0
+
+[9 rows x 11 columns]
+[2023-06-17T06:00:07.285+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-17T06:00:07.379+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=our_first_dag, task_id=first_task, execution_date=20230617T050000, start_date=20230617T060006, end_date=20230617T060007
+[2023-06-17T06:00:07.443+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-17T06:00:07.473+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

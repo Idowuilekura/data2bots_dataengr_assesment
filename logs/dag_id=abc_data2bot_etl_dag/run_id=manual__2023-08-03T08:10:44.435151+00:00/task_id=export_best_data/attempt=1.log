@@ -1,0 +1,13 @@
+[2023-08-03T08:11:44.456+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-03T08:10:44.435151+00:00 [queued]>
+[2023-08-03T08:11:44.466+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-03T08:10:44.435151+00:00 [queued]>
+[2023-08-03T08:11:44.466+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-03T08:11:44.483+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): export_best_data> on 2023-08-03 08:10:44.435151+00:00
+[2023-08-03T08:11:44.487+0000] {standard_task_runner.py:57} INFO - Started process 25067 to run task
+[2023-08-03T08:11:44.490+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'export_best_data', 'manual__2023-08-03T08:10:44.435151+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpr6f95lf1']
+[2023-08-03T08:11:44.491+0000] {standard_task_runner.py:85} INFO - Job 54: Subtask export_best_data
+[2023-08-03T08:11:44.536+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-03T08:10:44.435151+00:00 [running]> on host d75389520dc6
+[2023-08-03T08:11:44.610+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='export_best_data' AIRFLOW_CTX_EXECUTION_DATE='2023-08-03T08:10:44.435151+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-03T08:10:44.435151+00:00'
+[2023-08-03T08:11:52.178+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-03T08:11:52.185+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=export_best_data, execution_date=20230803T081044, start_date=20230803T081144, end_date=20230803T081152
+[2023-08-03T08:11:52.246+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-03T08:11:52.259+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

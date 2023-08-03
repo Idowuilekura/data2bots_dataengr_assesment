@@ -1,0 +1,17 @@
+version: 2.0 
+sources: 
+  - name: staging_source
+    database: d2b_accessment
+    schema: idowilek6169_staging
+    tables:
+      - name: orders
+      - name: reviews
+      - name: shipment_deliveries
+
+  - name: if_common_source
+    database: d2b_accessment
+    schema: if_common
+    tables: 
+      - name: dim_dates
+      - name: dim_products 
+  

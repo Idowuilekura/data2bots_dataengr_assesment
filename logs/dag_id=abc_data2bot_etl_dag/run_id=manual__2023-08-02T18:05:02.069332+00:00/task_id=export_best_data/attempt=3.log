@@ -1,0 +1,52 @@
+[2023-08-02T18:12:23.907+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-02T18:05:02.069332+00:00 [queued]>
+[2023-08-02T18:12:23.914+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-02T18:05:02.069332+00:00 [queued]>
+[2023-08-02T18:12:23.915+0000] {taskinstance.py:1308} INFO - Starting attempt 3 of 3
+[2023-08-02T18:12:23.932+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): export_best_data> on 2023-08-02 18:05:02.069332+00:00
+[2023-08-02T18:12:23.938+0000] {standard_task_runner.py:57} INFO - Started process 22512 to run task
+[2023-08-02T18:12:23.941+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'export_best_data', 'manual__2023-08-02T18:05:02.069332+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmp1i4wpzsq']
+[2023-08-02T18:12:23.942+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask export_best_data
+[2023-08-02T18:12:23.984+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.export_best_data manual__2023-08-02T18:05:02.069332+00:00 [running]> on host 22477bb0878f
+[2023-08-02T18:12:24.054+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='export_best_data' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T18:05:02.069332+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-02T18:05:02.069332+00:00'
+[2023-08-02T18:12:29.367+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/export_data.py", line 9, in export_best_performing_data
+    best_perfoming_data.to_csv(export_path, index=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 614, in get_handle
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 359, in _get_filepath_or_buffer
+    filepath_or_buffer, mode=fsspec_mode, **(storage_options or {})
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/core.py", line 438, in open
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/core.py", line 292, in open_files
+    [fs.makedirs(parent, exist_ok=True) for parent in parents]
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/core.py", line 292, in <listcomp>
+    [fs.makedirs(parent, exist_ok=True) for parent in parents]
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/asyn.py", line 88, in wrapper
+    return sync(self.loop, func, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/asyn.py", line 69, in sync
+    raise result[0]
+  File "/home/airflow/.local/lib/python3.7/site-packages/fsspec/asyn.py", line 25, in _runner
+    result[0] = await coro
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3fs/core.py", line 715, in _makedirs
+    await self._mkdir(path, create_parents=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3fs/core.py", line 700, in _mkdir
+    await self._call_s3("create_bucket", **params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3fs/core.py", line 237, in _call_s3
+    await self.set_session()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3fs/core.py", line 378, in set_session
+    self.session = aiobotocore.AioSession(**self.kwargs)
+AttributeError: module 'aiobotocore' has no attribute 'AioSession'
+[2023-08-02T18:12:29.377+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=abc_data2bot_etl_dag, task_id=export_best_data, execution_date=20230802T180502, start_date=20230802T181223, end_date=20230802T181229
+[2023-08-02T18:12:29.387+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 30 for task export_best_data (module 'aiobotocore' has no attribute 'AioSession'; 22512)
+[2023-08-02T18:12:29.415+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-08-02T18:12:29.429+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

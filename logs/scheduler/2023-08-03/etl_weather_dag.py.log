@@ -1,0 +1,1470 @@
+[2023-08-03T07:28:41.821+0000] {processor.py:157} INFO - Started process (PID=413) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:28:41.822+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:28:41.823+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:28:41.822+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:28:42.298+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:28:42.293+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:28:42.299+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:28:42.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.523 seconds
+[2023-08-03T07:29:13.097+0000] {processor.py:157} INFO - Started process (PID=690) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:13.098+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:29:13.098+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:29:13.098+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:13.441+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:29:13.439+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:29:13.441+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:13.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.362 seconds
+[2023-08-03T07:29:43.527+0000] {processor.py:157} INFO - Started process (PID=974) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:43.528+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:29:43.528+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:29:43.528+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:43.869+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:29:43.867+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:29:43.869+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:29:43.887+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.362 seconds
+[2023-08-03T07:30:13.915+0000] {processor.py:157} INFO - Started process (PID=1258) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:13.916+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:30:13.917+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:30:13.916+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:14.267+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:30:14.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:30:14.267+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:14.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.370 seconds
+[2023-08-03T07:30:44.720+0000] {processor.py:157} INFO - Started process (PID=1566) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:44.721+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:30:44.722+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:30:44.722+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:45.088+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:30:45.086+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:30:45.088+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:30:45.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.387 seconds
+[2023-08-03T07:31:15.547+0000] {processor.py:157} INFO - Started process (PID=1879) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:15.547+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:31:15.548+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:31:15.548+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:15.963+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:31:15.961+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:31:15.963+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:15.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.441 seconds
+[2023-08-03T07:31:46.940+0000] {processor.py:157} INFO - Started process (PID=2195) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:46.941+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:31:46.942+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:31:46.941+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:47.364+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:31:47.361+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:31:47.365+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:31:47.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.454 seconds
+[2023-08-03T07:32:17.747+0000] {processor.py:157} INFO - Started process (PID=2490) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:17.748+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:32:17.749+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:32:17.749+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:18.204+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:32:18.200+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:32:18.205+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:18.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.489 seconds
+[2023-08-03T07:32:48.543+0000] {processor.py:157} INFO - Started process (PID=2785) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:48.544+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:32:48.544+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:32:48.544+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:48.879+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:32:48.877+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:32:48.879+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:32:48.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.355 seconds
+[2023-08-03T07:33:18.967+0000] {processor.py:157} INFO - Started process (PID=3091) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:18.967+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:33:18.968+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:33:18.968+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:19.336+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:33:19.334+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:33:19.336+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:19.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.390 seconds
+[2023-08-03T07:33:49.706+0000] {processor.py:157} INFO - Started process (PID=3376) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:49.708+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:33:49.709+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:33:49.708+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:50.406+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:33:50.403+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:33:50.407+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:33:50.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.744 seconds
+[2023-08-03T07:34:20.648+0000] {processor.py:157} INFO - Started process (PID=3698) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:20.649+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:34:20.650+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:34:20.650+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:21.021+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:34:21.019+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:34:21.021+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:21.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.393 seconds
+[2023-08-03T07:34:52.007+0000] {processor.py:157} INFO - Started process (PID=4010) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:52.008+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:34:52.008+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:34:52.008+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:52.439+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:34:52.435+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:34:52.440+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:34:52.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.461 seconds
+[2023-08-03T07:35:23.036+0000] {processor.py:157} INFO - Started process (PID=4343) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:23.037+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:35:23.037+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:35:23.037+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:23.435+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:35:23.434+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:35:23.436+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:23.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.417 seconds
+[2023-08-03T07:35:53.881+0000] {processor.py:157} INFO - Started process (PID=4644) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:53.882+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:35:53.883+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:35:53.882+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:54.281+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:35:54.279+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:35:54.281+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:35:54.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.419 seconds
+[2023-08-03T07:36:24.629+0000] {processor.py:157} INFO - Started process (PID=4926) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:24.630+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:36:24.631+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:36:24.630+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:25.020+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:36:25.017+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:36:25.020+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:25.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.421 seconds
+[2023-08-03T07:36:55.325+0000] {processor.py:157} INFO - Started process (PID=5201) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:55.326+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:36:55.327+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:36:55.326+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:55.694+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:36:55.692+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:36:55.694+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:36:55.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.387 seconds
+[2023-08-03T07:37:25.860+0000] {processor.py:157} INFO - Started process (PID=5482) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:25.861+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:37:25.861+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:37:25.861+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:26.175+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:37:26.173+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:37:26.175+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:26.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.332 seconds
+[2023-08-03T07:37:56.378+0000] {processor.py:157} INFO - Started process (PID=5767) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:56.379+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:37:56.379+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:37:56.379+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:56.692+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:37:56.691+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:37:56.693+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:37:56.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.332 seconds
+[2023-08-03T07:38:27.261+0000] {processor.py:157} INFO - Started process (PID=6041) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:27.262+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:38:27.263+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:38:27.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:27.602+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:38:27.600+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:38:27.602+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:27.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.363 seconds
+[2023-08-03T07:38:57.848+0000] {processor.py:157} INFO - Started process (PID=6325) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:57.848+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:38:57.849+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:38:57.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:58.206+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:38:58.203+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:38:58.206+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:38:58.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.376 seconds
+[2023-08-03T07:39:28.916+0000] {processor.py:157} INFO - Started process (PID=6609) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:39:28.917+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:39:28.918+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:39:28.918+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:39:29.288+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:39:29.286+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:39:29.288+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:39:29.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.392 seconds
+[2023-08-03T07:39:59.670+0000] {processor.py:157} INFO - Started process (PID=6893) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:39:59.670+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:39:59.671+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:39:59.671+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:40:00.068+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:40:00.066+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:40:00.069+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:40:00.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.422 seconds
+[2023-08-03T07:40:30.265+0000] {processor.py:157} INFO - Started process (PID=7177) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:40:30.266+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:40:30.267+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:40:30.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:40:30.616+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:40:30.614+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:40:30.616+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:40:30.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.368 seconds
+[2023-08-03T07:41:00.873+0000] {processor.py:157} INFO - Started process (PID=7461) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:00.874+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:41:00.875+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:41:00.874+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:01.305+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:41:01.303+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:41:01.305+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:01.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.450 seconds
+[2023-08-03T07:41:32.044+0000] {processor.py:157} INFO - Started process (PID=7752) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:32.045+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:41:32.046+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:41:32.046+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:32.456+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:41:32.454+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:41:32.456+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:41:32.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.431 seconds
+[2023-08-03T07:42:03.296+0000] {processor.py:157} INFO - Started process (PID=8036) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:03.297+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:42:03.298+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:42:03.298+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:03.745+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:42:03.743+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:42:03.745+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:03.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.470 seconds
+[2023-08-03T07:42:34.420+0000] {processor.py:157} INFO - Started process (PID=8320) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:34.421+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:42:34.422+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:42:34.421+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:34.771+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:42:34.769+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:42:34.771+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:42:34.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.373 seconds
+[2023-08-03T07:43:05.733+0000] {processor.py:157} INFO - Started process (PID=8604) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:05.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:43:05.734+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:43:05.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:06.096+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:43:06.094+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:43:06.096+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:06.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.379 seconds
+[2023-08-03T07:43:37.117+0000] {processor.py:157} INFO - Started process (PID=8888) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:37.118+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:43:37.119+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:43:37.119+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:37.471+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:43:37.469+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:43:37.471+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:43:37.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.371 seconds
+[2023-08-03T07:44:07.954+0000] {processor.py:157} INFO - Started process (PID=9172) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:07.954+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:44:07.955+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:44:07.955+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:08.351+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:44:08.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:44:08.352+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:08.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.419 seconds
+[2023-08-03T07:44:38.686+0000] {processor.py:157} INFO - Started process (PID=9496) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:38.687+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:44:38.688+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:44:38.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:39.051+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:44:39.049+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:44:39.051+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:44:39.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.384 seconds
+[2023-08-03T07:45:09.780+0000] {processor.py:157} INFO - Started process (PID=9820) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:09.781+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:45:09.781+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:45:09.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:10.171+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:45:10.168+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:45:10.171+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:10.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.412 seconds
+[2023-08-03T07:45:41.178+0000] {processor.py:157} INFO - Started process (PID=10130) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:41.179+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:45:41.180+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:45:41.180+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:41.830+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:45:41.828+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:45:41.831+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:45:41.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.674 seconds
+[2023-08-03T07:46:12.776+0000] {processor.py:157} INFO - Started process (PID=10436) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:12.776+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:46:12.777+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:46:12.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:13.132+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:46:13.131+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:46:13.133+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:13.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.379 seconds
+[2023-08-03T07:46:43.738+0000] {processor.py:157} INFO - Started process (PID=10720) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:43.739+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:46:43.740+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:46:43.740+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:44.253+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:46:44.252+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:46:44.253+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:46:44.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.530 seconds
+[2023-08-03T07:47:14.298+0000] {processor.py:157} INFO - Started process (PID=11004) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:14.299+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:47:14.300+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:47:14.300+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:14.843+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:47:14.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:47:14.843+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:14.857+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.563 seconds
+[2023-08-03T07:47:45.614+0000] {processor.py:157} INFO - Started process (PID=11288) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:45.615+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:47:45.616+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:47:45.615+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:46.116+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:47:46.115+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:47:46.116+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:47:46.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.518 seconds
+[2023-08-03T07:48:16.166+0000] {processor.py:157} INFO - Started process (PID=11602) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:16.166+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:48:16.167+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:48:16.167+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:16.732+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:48:16.731+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:48:16.732+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:16.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.586 seconds
+[2023-08-03T07:48:46.839+0000] {processor.py:157} INFO - Started process (PID=11886) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:46.840+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:48:46.840+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:48:46.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:47.337+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:48:47.335+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:48:47.337+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:48:47.351+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.517 seconds
+[2023-08-03T07:49:17.814+0000] {processor.py:157} INFO - Started process (PID=12170) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:17.815+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:49:17.816+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:49:17.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:18.339+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:49:18.337+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:49:18.339+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:18.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.544 seconds
+[2023-08-03T07:49:49.161+0000] {processor.py:157} INFO - Started process (PID=12453) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:49.162+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:49:49.162+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:49:49.162+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:49.654+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:49:49.653+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:49:49.654+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:49:49.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.510 seconds
+[2023-08-03T07:50:20.478+0000] {processor.py:157} INFO - Started process (PID=12737) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:20.485+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:50:20.487+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:50:20.486+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:21.186+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:50:21.182+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:50:21.187+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:21.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.736 seconds
+[2023-08-03T07:50:51.455+0000] {processor.py:157} INFO - Started process (PID=13088) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:51.456+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:50:51.456+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:50:51.456+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:52.023+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:50:52.012+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:50:52.023+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:50:52.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.594 seconds
+[2023-08-03T07:51:22.177+0000] {processor.py:157} INFO - Started process (PID=13430) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:22.178+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:51:22.179+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:51:22.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:22.655+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:51:22.654+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:51:22.655+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:22.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.494 seconds
+[2023-08-03T07:51:52.705+0000] {processor.py:157} INFO - Started process (PID=13717) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:52.706+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:51:52.707+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:51:52.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:53.198+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:51:53.196+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:51:53.198+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:51:53.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.509 seconds
+[2023-08-03T07:52:24.134+0000] {processor.py:157} INFO - Started process (PID=14001) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:24.135+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:52:24.135+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:52:24.135+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:24.589+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:52:24.588+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:52:24.589+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:24.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.472 seconds
+[2023-08-03T07:52:55.564+0000] {processor.py:157} INFO - Started process (PID=14285) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:55.565+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:52:55.566+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:52:55.566+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:56.692+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:52:56.689+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:52:56.693+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:52:56.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 1.227 seconds
+[2023-08-03T07:53:27.319+0000] {processor.py:157} INFO - Started process (PID=14634) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:27.337+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:53:27.338+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:53:27.338+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:27.790+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:53:27.789+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:53:27.791+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:27.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.493 seconds
+[2023-08-03T07:53:58.329+0000] {processor.py:157} INFO - Started process (PID=14911) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:58.329+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:53:58.330+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:53:58.330+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:58.799+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:53:58.798+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:53:58.800+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:53:58.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.489 seconds
+[2023-08-03T07:54:29.578+0000] {processor.py:157} INFO - Started process (PID=15209) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:54:29.579+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:54:29.579+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:54:29.579+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:54:30.024+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:54:30.023+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:54:30.024+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:54:30.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.465 seconds
+[2023-08-03T07:55:00.232+0000] {processor.py:157} INFO - Started process (PID=15502) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:00.234+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:55:00.235+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:55:00.234+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:00.753+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:55:00.752+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:55:00.753+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:00.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.538 seconds
+[2023-08-03T07:55:31.026+0000] {processor.py:157} INFO - Started process (PID=15800) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:31.027+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:55:31.027+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:55:31.027+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:31.484+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:55:31.483+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:55:31.485+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:55:31.500+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.477 seconds
+[2023-08-03T07:56:01.846+0000] {processor.py:157} INFO - Started process (PID=16084) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:01.847+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:56:01.848+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:56:01.848+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:02.413+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:56:02.411+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:56:02.414+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:02.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.587 seconds
+[2023-08-03T07:56:33.129+0000] {processor.py:157} INFO - Started process (PID=16391) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:33.129+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:56:33.130+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:56:33.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:33.587+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:56:33.586+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:56:33.587+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:56:33.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.474 seconds
+[2023-08-03T07:57:03.629+0000] {processor.py:157} INFO - Started process (PID=16687) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:03.630+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:57:03.631+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:57:03.630+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:04.085+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:57:04.084+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:57:04.086+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:04.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.472 seconds
+[2023-08-03T07:57:34.401+0000] {processor.py:157} INFO - Started process (PID=16992) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:34.402+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:57:34.403+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:57:34.402+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:34.838+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:57:34.837+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:57:34.838+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:57:34.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.453 seconds
+[2023-08-03T07:58:05.329+0000] {processor.py:157} INFO - Started process (PID=17276) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:05.330+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:58:05.331+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:58:05.331+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:05.747+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:58:05.746+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:58:05.747+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:05.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.432 seconds
+[2023-08-03T07:58:36.198+0000] {processor.py:157} INFO - Started process (PID=17560) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:36.199+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:58:36.200+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:58:36.199+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:36.585+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:58:36.584+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:58:36.585+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:58:36.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.403 seconds
+[2023-08-03T07:59:06.893+0000] {processor.py:157} INFO - Started process (PID=17859) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:06.894+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:59:06.894+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:59:06.894+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:07.281+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:59:07.280+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:59:07.281+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:07.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.404 seconds
+[2023-08-03T07:59:37.733+0000] {processor.py:157} INFO - Started process (PID=18155) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:37.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T07:59:37.734+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:59:37.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:38.114+0000] {logging_mixin.py:150} INFO - [2023-08-03T07:59:38.113+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T07:59:38.114+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T07:59:38.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.396 seconds
+[2023-08-03T08:00:08.246+0000] {processor.py:157} INFO - Started process (PID=18442) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:08.248+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:00:08.248+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:00:08.248+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:08.688+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:00:08.687+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:00:08.689+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:08.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.457 seconds
+[2023-08-03T08:00:39.352+0000] {processor.py:157} INFO - Started process (PID=18729) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:39.352+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:00:39.353+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:00:39.353+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:39.830+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:00:39.829+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:00:39.830+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:00:39.842+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.493 seconds
+[2023-08-03T08:01:09.919+0000] {processor.py:157} INFO - Started process (PID=19026) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:09.920+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:01:09.921+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:01:09.920+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:10.349+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:01:10.348+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:01:10.350+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:10.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.472 seconds
+[2023-08-03T08:01:40.724+0000] {processor.py:157} INFO - Started process (PID=19311) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:40.725+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:01:40.725+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:01:40.725+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:41.157+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:01:41.155+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:01:41.157+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:01:41.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.454 seconds
+[2023-08-03T08:02:11.453+0000] {processor.py:157} INFO - Started process (PID=19594) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:11.454+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:02:11.454+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:02:11.454+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:11.904+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:02:11.903+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:02:11.904+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:11.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.468 seconds
+[2023-08-03T08:02:41.984+0000] {processor.py:157} INFO - Started process (PID=19880) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:41.985+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:02:41.985+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:02:41.985+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:42.373+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:02:42.373+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:02:42.374+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:02:42.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.405 seconds
+[2023-08-03T08:03:12.465+0000] {processor.py:157} INFO - Started process (PID=20164) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:12.466+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:03:12.468+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:03:12.467+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:12.913+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:03:12.910+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:03:12.913+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:12.931+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.471 seconds
+[2023-08-03T08:03:43.828+0000] {processor.py:157} INFO - Started process (PID=20448) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:43.829+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:03:43.829+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:03:43.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:44.216+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:03:44.215+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:03:44.216+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:03:44.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.404 seconds
+[2023-08-03T08:04:15.111+0000] {processor.py:157} INFO - Started process (PID=20755) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:15.112+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:04:15.113+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:04:15.113+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:15.529+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:04:15.528+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:04:15.529+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:15.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.435 seconds
+[2023-08-03T08:04:45.880+0000] {processor.py:157} INFO - Started process (PID=21041) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:45.881+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:04:45.881+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:04:45.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:46.267+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:04:46.266+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:04:46.268+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:04:46.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.402 seconds
+[2023-08-03T08:05:17.048+0000] {processor.py:157} INFO - Started process (PID=21335) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:17.049+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:05:17.050+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:05:17.049+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:17.436+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:05:17.435+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:05:17.436+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:17.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.403 seconds
+[2023-08-03T08:05:48.545+0000] {processor.py:157} INFO - Started process (PID=21629) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:48.546+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:05:48.547+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:05:48.547+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:48.931+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:05:48.930+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:05:48.931+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:05:48.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.400 seconds
+[2023-08-03T08:06:19.220+0000] {processor.py:157} INFO - Started process (PID=21912) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:19.221+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:06:19.222+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:06:19.222+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:19.622+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:06:19.621+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:06:19.622+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:19.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.422 seconds
+[2023-08-03T08:06:50.535+0000] {processor.py:157} INFO - Started process (PID=22216) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:50.535+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:06:50.536+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:06:50.536+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:51.020+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:06:51.019+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:06:51.020+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:06:51.033+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.501 seconds
+[2023-08-03T08:07:21.662+0000] {processor.py:157} INFO - Started process (PID=22505) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:21.663+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:07:21.664+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:07:21.664+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:22.107+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:07:22.106+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:07:22.107+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:22.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.463 seconds
+[2023-08-03T08:07:53.082+0000] {processor.py:157} INFO - Started process (PID=22789) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:53.083+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:07:53.084+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:07:53.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:53.503+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:07:53.502+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:07:53.504+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:07:53.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.438 seconds
+[2023-08-03T08:08:24.765+0000] {processor.py:157} INFO - Started process (PID=23115) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:24.767+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:08:24.768+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:08:24.768+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:25.194+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:08:25.192+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:08:25.194+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:25.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.449 seconds
+[2023-08-03T08:08:56.259+0000] {processor.py:157} INFO - Started process (PID=23415) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:56.259+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:08:56.260+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:08:56.260+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:56.742+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:08:56.741+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:08:56.742+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:08:56.758+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.502 seconds
+[2023-08-03T08:09:27.639+0000] {processor.py:157} INFO - Started process (PID=23713) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:27.640+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:09:27.641+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:09:27.640+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:28.108+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:09:28.107+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:09:28.108+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:28.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.484 seconds
+[2023-08-03T08:09:58.587+0000] {processor.py:157} INFO - Started process (PID=24013) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:58.587+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:09:58.588+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:09:58.588+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:59.179+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:09:59.178+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:09:59.179+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:09:59.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.608 seconds
+[2023-08-03T08:10:29.511+0000] {processor.py:157} INFO - Started process (PID=24302) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:10:29.512+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:10:29.513+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:10:29.513+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:10:30.082+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:10:30.081+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:10:30.082+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:10:30.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.593 seconds
+[2023-08-03T08:11:00.496+0000] {processor.py:157} INFO - Started process (PID=24636) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:00.497+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:11:00.498+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:11:00.498+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:00.906+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:11:00.904+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:11:00.906+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:00.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.425 seconds
+[2023-08-03T08:11:31.200+0000] {processor.py:157} INFO - Started process (PID=24947) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:31.200+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:11:31.201+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:11:31.201+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:31.893+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:11:31.892+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:11:31.894+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:11:31.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.710 seconds
+[2023-08-03T08:12:02.513+0000] {processor.py:157} INFO - Started process (PID=25254) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:02.514+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:12:02.514+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:12:02.514+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:02.942+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:12:02.941+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:12:02.942+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:02.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.447 seconds
+[2023-08-03T08:12:33.165+0000] {processor.py:157} INFO - Started process (PID=25586) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:33.166+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:12:33.167+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:12:33.167+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:33.575+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:12:33.574+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:12:33.576+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:12:33.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.429 seconds
+[2023-08-03T08:13:04.304+0000] {processor.py:157} INFO - Started process (PID=25874) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:04.305+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:13:04.305+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:13:04.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:04.767+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:13:04.766+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:13:04.767+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:04.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.480 seconds
+[2023-08-03T08:13:35.653+0000] {processor.py:157} INFO - Started process (PID=26191) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:35.654+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:13:35.655+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:13:35.655+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:36.070+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:13:36.068+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:13:36.070+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:13:36.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.433 seconds
+[2023-08-03T08:14:06.240+0000] {processor.py:157} INFO - Started process (PID=26491) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:06.241+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:14:06.241+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:14:06.241+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:06.713+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:14:06.712+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:14:06.713+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:06.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.492 seconds
+[2023-08-03T08:14:37.470+0000] {processor.py:157} INFO - Started process (PID=26786) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:37.471+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:14:37.471+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:14:37.471+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:38.011+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:14:38.009+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:14:38.012+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:14:38.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.560 seconds
+[2023-08-03T08:15:08.352+0000] {processor.py:157} INFO - Started process (PID=27070) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:08.353+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:15:08.354+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:15:08.354+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:08.921+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:15:08.919+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:15:08.921+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:08.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.590 seconds
+[2023-08-03T08:15:39.224+0000] {processor.py:157} INFO - Started process (PID=27356) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:39.225+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:15:39.225+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:15:39.225+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:39.728+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:15:39.727+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:15:39.728+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:15:39.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.523 seconds
+[2023-08-03T08:16:09.946+0000] {processor.py:157} INFO - Started process (PID=27629) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:09.947+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:16:09.947+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:16:09.947+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:10.437+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:16:10.436+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:16:10.437+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:10.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.516 seconds
+[2023-08-03T08:16:40.676+0000] {processor.py:157} INFO - Started process (PID=27923) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:40.677+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:16:40.678+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:16:40.677+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:41.128+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:16:41.127+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:16:41.129+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:16:41.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.468 seconds
+[2023-08-03T08:17:11.685+0000] {processor.py:157} INFO - Started process (PID=28213) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:11.686+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:17:11.686+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:17:11.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:12.142+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:17:12.141+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:17:12.142+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:12.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.474 seconds
+[2023-08-03T08:17:42.200+0000] {processor.py:157} INFO - Started process (PID=28497) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:42.201+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:17:42.202+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:17:42.201+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:42.719+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:17:42.718+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:17:42.719+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:17:42.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.538 seconds
+[2023-08-03T08:18:13.482+0000] {processor.py:157} INFO - Started process (PID=28791) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:13.483+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:18:13.483+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:18:13.483+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:13.972+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:18:13.971+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:18:13.973+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:13.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.508 seconds
+[2023-08-03T08:18:44.033+0000] {processor.py:157} INFO - Started process (PID=29110) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:44.033+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:18:44.034+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:18:44.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:44.572+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:18:44.570+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:18:44.572+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:18:44.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.560 seconds
+[2023-08-03T08:19:15.400+0000] {processor.py:157} INFO - Started process (PID=29397) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:15.401+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:19:15.401+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:19:15.401+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:15.945+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:19:15.944+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:19:15.945+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:15.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.571 seconds
+[2023-08-03T08:19:46.435+0000] {processor.py:157} INFO - Started process (PID=29680) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:46.436+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:19:46.437+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:19:46.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:46.979+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:19:46.977+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:19:46.979+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:19:47.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.569 seconds
+[2023-08-03T08:20:17.529+0000] {processor.py:157} INFO - Started process (PID=29964) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:17.531+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:20:17.533+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:20:17.533+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:18.057+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:20:18.056+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:20:18.058+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:18.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.551 seconds
+[2023-08-03T08:20:48.856+0000] {processor.py:157} INFO - Started process (PID=30248) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:48.857+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:20:48.857+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:20:48.857+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:49.398+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:20:49.397+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:20:49.399+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:20:49.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.567 seconds
+[2023-08-03T08:21:20.398+0000] {processor.py:157} INFO - Started process (PID=30544) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:20.410+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:21:20.413+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:21:20.412+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:20.993+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:21:20.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:21:20.994+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:21.016+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.624 seconds
+[2023-08-03T08:21:51.596+0000] {processor.py:157} INFO - Started process (PID=30822) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:51.597+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:21:51.598+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:21:51.597+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:52.313+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:21:52.310+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:21:52.314+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:21:52.336+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.745 seconds
+[2023-08-03T08:22:23.020+0000] {processor.py:157} INFO - Started process (PID=31106) to work on /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:22:23.022+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/etl_weather_dag.py for tasks to queue
+[2023-08-03T08:22:23.023+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:22:23.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:22:23.572+0000] {logging_mixin.py:150} INFO - [2023-08-03T08:22:23.570+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_weather_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_weather_dag.py", line 7, in <module>
+    import swagger_client
+ModuleNotFoundError: No module named 'swagger_client'
+[2023-08-03T08:22:23.573+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_weather_dag.py
+[2023-08-03T08:22:23.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_weather_dag.py took 0.579 seconds

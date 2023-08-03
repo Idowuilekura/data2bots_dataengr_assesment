@@ -1,0 +1,23 @@
+[2023-08-02T17:34:10.497+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-02T17:34:07.594730+00:00 [queued]>
+[2023-08-02T17:34:10.508+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-02T17:34:07.594730+00:00 [queued]>
+[2023-08-02T17:34:10.508+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-02T17:34:10.524+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_task> on 2023-08-02 17:34:07.594730+00:00
+[2023-08-02T17:34:10.530+0000] {standard_task_runner.py:57} INFO - Started process 775 to run task
+[2023-08-02T17:34:10.534+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'extract_data_task', 'manual__2023-08-02T17:34:07.594730+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpptnk_vth']
+[2023-08-02T17:34:10.534+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask extract_data_task
+[2023-08-02T17:34:10.588+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.extract_data_task manual__2023-08-02T17:34:07.594730+00:00 [running]> on host 22477bb0878f
+[2023-08-02T17:34:10.704+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='extract_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T17:34:07.594730+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-02T17:34:07.594730+00:00'
+[2023-08-02T17:34:10.707+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/extract_data.py", line 38, in extract_save_data_all
+    data_outputh_path = extract_data_save_locally(s3_client=boto3.client, bucket_name= bucket_name, data_to_download_name = data_name, data_local_folder_name=str(data_local_folder_name))
+  File "/opt/airflow/dags/extract_data.py", line 27, in extract_data_save_locally
+    s3 = s3_client.client('s3', config=Config(signature_version= UNSIGNED))
+AttributeError: 'function' object has no attribute 'client'
+[2023-08-02T17:34:10.718+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=abc_data2bot_etl_dag, task_id=extract_data_task, execution_date=20230802T173407, start_date=20230802T173410, end_date=20230802T173410
+[2023-08-02T17:34:10.733+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 3 for task extract_data_task ('function' object has no attribute 'client'; 775)
+[2023-08-02T17:34:10.745+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1

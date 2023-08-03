@@ -1,0 +1,224 @@
+[2023-06-16T00:35:12.738+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [queued]>
+[2023-06-16T00:35:12.821+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [queued]>
+[2023-06-16T00:35:12.823+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-16T00:35:12.920+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): first_task> on 2023-06-14 14:00:00+00:00
+[2023-06-16T00:35:12.939+0000] {standard_task_runner.py:57} INFO - Started process 13547 to run task
+[2023-06-16T00:35:12.950+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag', 'first_task', 'scheduled__2023-06-14T14:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/hello_dag.py', '--cfg-path', '/tmp/tmpde3qg8_y']
+[2023-06-16T00:35:12.952+0000] {standard_task_runner.py:85} INFO - Job 29: Subtask first_task
+[2023-06-16T00:35:13.139+0000] {task_command.py:410} INFO - Running <TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [running]> on host c52f9af30578
+[2023-06-16T00:35:13.506+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='our_first_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T14:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-14T14:00:00+00:00'
+[2023-06-16T00:35:14.052+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InsufficientPrivilege: permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/hello_dag.py", line 69, in extract_save_local
+    df_weather_details.to_sql('weather_details_table', postgres_engine,if_exists='replace')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1758, in to_sql
+    dtype=dtype,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1650, in prep_table
+    table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 867, in create
+    self._execute_create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 853, in _execute_create
+    self.table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3233, in _run_ddl_visitor
+    conn._run_ddl_visitor(visitorcallable, element, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2216, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 904, in visit_table
+    include_foreign_key_constraints,  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 81, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1483, in _execute_ddl
+    compiled,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1949, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2130, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+[SQL: 
+CREATE TABLE weather_details_table (
+	index BIGINT, 
+	time TEXT, 
+	temp_c FLOAT(53), 
+	wind_kph FLOAT(53), 
+	wind_dir TEXT, 
+	humidity BIGINT, 
+	windchill_c FLOAT(53), 
+	heatindex_c FLOAT(53), 
+	dewpoint_c FLOAT(53), 
+	will_it_rain BIGINT, 
+	will_it_snow BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-06-16T00:35:14.131+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=our_first_dag, task_id=first_task, execution_date=20230614T140000, start_date=20230616T003512, end_date=20230616T003514
+[2023-06-16T00:35:14.169+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 29 for task first_task ((psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+[SQL: 
+CREATE TABLE weather_details_table (
+	index BIGINT, 
+	time TEXT, 
+	temp_c FLOAT(53), 
+	wind_kph FLOAT(53), 
+	wind_dir TEXT, 
+	humidity BIGINT, 
+	windchill_c FLOAT(53), 
+	heatindex_c FLOAT(53), 
+	dewpoint_c FLOAT(53), 
+	will_it_rain BIGINT, 
+	will_it_snow BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405); 13547)
+[2023-06-16T00:35:14.237+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-16T00:35:14.452+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-06-16T00:42:25.769+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [queued]>
+[2023-06-16T00:42:25.809+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [queued]>
+[2023-06-16T00:42:25.811+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-16T00:42:25.942+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): first_task> on 2023-06-14 14:00:00+00:00
+[2023-06-16T00:42:26.195+0000] {standard_task_runner.py:57} INFO - Started process 18054 to run task
+[2023-06-16T00:42:26.590+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag', 'first_task', 'scheduled__2023-06-14T14:00:00+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/hello_dag.py', '--cfg-path', '/tmp/tmpgb35br57']
+[2023-06-16T00:42:26.601+0000] {standard_task_runner.py:85} INFO - Job 89: Subtask first_task
+[2023-06-16T00:42:27.787+0000] {task_command.py:410} INFO - Running <TaskInstance: our_first_dag.first_task scheduled__2023-06-14T14:00:00+00:00 [running]> on host c52f9af30578
+[2023-06-16T00:42:28.448+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='our_first_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-06-14T14:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-14T14:00:00+00:00'
+[2023-06-16T00:42:29.276+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InsufficientPrivilege: permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/hello_dag.py", line 69, in extract_save_local
+    df_weather_details.to_sql('weather_details_table', postgres_engine,if_exists='replace')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1758, in to_sql
+    dtype=dtype,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1650, in prep_table
+    table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 867, in create
+    self._execute_create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 853, in _execute_create
+    self.table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/schema.py", line 962, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3233, in _run_ddl_visitor
+    conn._run_ddl_visitor(visitorcallable, element, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2216, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 904, in visit_table
+    include_foreign_key_constraints,  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py", line 81, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1483, in _execute_ddl
+    compiled,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1949, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2130, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1906, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+[SQL: 
+CREATE TABLE weather_details_table (
+	index BIGINT, 
+	time TEXT, 
+	temp_c FLOAT(53), 
+	wind_kph FLOAT(53), 
+	wind_dir TEXT, 
+	humidity BIGINT, 
+	windchill_c FLOAT(53), 
+	heatindex_c FLOAT(53), 
+	dewpoint_c FLOAT(53), 
+	will_it_rain BIGINT, 
+	will_it_snow BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-06-16T00:42:29.346+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=our_first_dag, task_id=first_task, execution_date=20230614T140000, start_date=20230616T004225, end_date=20230616T004229
+[2023-06-16T00:42:29.417+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 89 for task first_task ((psycopg2.errors.InsufficientPrivilege) permission denied for schema public
+LINE 2: CREATE TABLE weather_details_table (
+                     ^
+
+[SQL: 
+CREATE TABLE weather_details_table (
+	index BIGINT, 
+	time TEXT, 
+	temp_c FLOAT(53), 
+	wind_kph FLOAT(53), 
+	wind_dir TEXT, 
+	humidity BIGINT, 
+	windchill_c FLOAT(53), 
+	heatindex_c FLOAT(53), 
+	dewpoint_c FLOAT(53), 
+	will_it_rain BIGINT, 
+	will_it_snow BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405); 18054)
+[2023-06-16T00:42:29.458+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-16T00:42:29.592+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

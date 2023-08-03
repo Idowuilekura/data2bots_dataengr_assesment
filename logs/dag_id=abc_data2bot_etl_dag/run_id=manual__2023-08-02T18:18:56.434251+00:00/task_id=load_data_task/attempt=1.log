@@ -1,0 +1,12 @@
+[2023-08-02T18:19:10.977+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.load_data_task manual__2023-08-02T18:18:56.434251+00:00 [queued]>
+[2023-08-02T18:19:10.985+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.load_data_task manual__2023-08-02T18:18:56.434251+00:00 [queued]>
+[2023-08-02T18:19:10.986+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-02T18:19:11.001+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_data_task> on 2023-08-02 18:18:56.434251+00:00
+[2023-08-02T18:19:11.007+0000] {standard_task_runner.py:57} INFO - Started process 26289 to run task
+[2023-08-02T18:19:11.010+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'load_data_task', 'manual__2023-08-02T18:18:56.434251+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpr7f0pgeg']
+[2023-08-02T18:19:11.010+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask load_data_task
+[2023-08-02T18:19:11.052+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.load_data_task manual__2023-08-02T18:18:56.434251+00:00 [running]> on host 22477bb0878f
+[2023-08-02T18:19:11.125+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='load_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-02T18:18:56.434251+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-02T18:18:56.434251+00:00'
+[2023-08-02T18:20:46.077+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-02T18:20:46.084+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=load_data_task, execution_date=20230802T181856, start_date=20230802T181910, end_date=20230802T182046
+[2023-08-02T18:20:46.137+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
