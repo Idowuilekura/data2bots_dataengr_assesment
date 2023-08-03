@@ -1,5 +1,0 @@
-[2023-07-19T09:54:56.894+0000] {processor.py:157} INFO - Started process (PID=350) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
-[2023-07-19T09:54:56.917+0000] {processor.py:826} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
-[2023-07-19T09:54:56.924+0000] {logging_mixin.py:149} INFO - [2023-07-19T09:54:56.924+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
-[2023-07-19T09:54:57.270+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
-[2023-07-19T09:54:58.631+0000] {logging_mixin.py:149} INFO - [2023-07-19T09:54:58.631+0000] {process_utils.py:258} INFO - Waiting up to 5 seconds for processes to exit...
