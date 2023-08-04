@@ -1,0 +1,246 @@
+version: 2
+
+models: 
+  - name: agg_public_holiday
+    columns: 
+      - name: ingestion_date 
+        description: The date of ingestion of the data 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: tt_order_hol_jan 
+        description: The total number of orders made on holidays in January
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_feb
+        description: The total number of orders made on holidays in February
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+              
+
+      - name: tt_order_hol_mar 
+        description: The total number of orders made on holidays in March
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_apr 
+        description: The total number of orders made on holidays in April
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_may 
+        description: The total number of orders made on holidays in May
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_jun 
+        description: The total number of orders made on holidays in June
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_jul
+        description: The total number of orders made on holidays in July
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+
+      - name: tt_order_hol_aug 
+        description: The total number of orders made on holidays in August
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_sep 
+        description: The total number of orders made on holidays in September
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_oct 
+        description: The total number of orders made on holidays in October
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_nov 
+        description: The total number of orders made on holidays in November
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: tt_order_hol_dec 
+        description: The total number of orders made on holidays in December
+        tests:
+          - not_null:
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+  - name: agg_shipments
+    columns: 
+      - name: ingestion_date 
+        description: The date of ingestion of the data 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: tt_late_shipments 
+        description: Total number late shipment orders 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer
+
+      - name: tt_undelivered_items 
+        description: Total number of undelivered orders 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer
+
+
+  - name: best_performing_product
+    columns: 
+      - name: ingestion_date 
+        description: The date of ingestion of the data 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: product_name  
+        description: Best performing product name 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: VARCHAR
+
+      - name: most_ordered_day 
+        description: Day in which the best performing product was ordered most 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: date
+
+      - name: is_public_holiday 
+        description: If the day in which the best performing product was ordered most is a public holiday 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: boolean
+
+      - name: tt_review_points 
+        description: Best performing product total number of reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer 
+
+      - name: pct_one_star_review 
+        description: Distribution of one star reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type:  numeric
+
+      - name: pct_two_star_review 
+        description: Distribution of two star reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+
+
+      - name: pct_three_star_review 
+        description: Distribution of three star reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+
+
+      - name: pct_four_star_review 
+        description: Distribution of four star reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+
+
+      - name: pct_five_star_review 
+        description: Distribution of one star reviews 
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+
+      - name: pct_early_shipments 
+        description: Distribution of early shipment for the best performing product
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+
+
+      - name: pct_late_shipments  
+        description: Distribution of late shipment for the best performing product
+        tests:
+          - not_null: 
+              severity: warn 
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: numeric
+            
+
+        
+
+      
+
+

@@ -128,10 +128,13 @@ CASE WHEN d_date.day_of_the_week_num IN (1,2,3,4,5) AND d_date.working_day = FAL
 	INNER JOIN highest_product_review_name hprn 
 	ON eslsd.product_id = hprn.product_id)
 	
-	SELECT CURRENT_DATE AS ingestion_date, most_ordered_day, 
-	is_public_holiday, CAST(tt_review_points AS INTEGER),
-	pct_one_star_review,pct_two_star_review,
-	pct_three_star_review, pct_four_star_review,
-	pct_five_star_review, pct_early_shipments,
-	pct_late_shipments
+	SELECT CURRENT_DATE AS ingestion_date,CAST(product_name AS VARCHAR), most_ordered_day, 
+	CAST(is_public_holiday AS BOOLEAN), CAST(tt_review_points AS INTEGER),
+	CAST(pct_one_star_review AS NUMERIC),
+	CAST(pct_two_star_review AS NUMERIC),
+	CAST(pct_three_star_review AS NUMERIC), 
+	CAST(pct_four_star_review AS NUMERIC),
+	CAST(pct_five_star_review AS NUMERIC), 
+	CAST(pct_early_shipments AS NUMERIC),
+	CAST(pct_late_shipments AS NUMERIC)
 	FROM all_details_joined

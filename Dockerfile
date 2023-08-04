@@ -38,4 +38,6 @@ RUN pip install --no-cache-dir --user -r /app/requirements.txt
 
 # RUN dbt debug 
 
+# RUN dbt deps
+
 EXPOSE 8080

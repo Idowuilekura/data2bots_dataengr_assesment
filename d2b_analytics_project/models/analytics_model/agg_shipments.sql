@@ -21,7 +21,7 @@ undelivered_shipment_orders AS (SELECT order_id
 								count_of_undelivered_shipment_orders AS (SELECT 1 common_number, COALESCE(COUNT(order_id),0) AS tt_undelivered_items
 																 FROM undelivered_shipment_orders )
 									
-		SELECT CURRENT_DATE AS ingestion_date,colso.tt_late_shipments,  couso.tt_undelivered_items
+		SELECT CURRENT_DATE AS ingestion_date,CAST(colso.tt_late_shipments AS INTEGER),  CAST(couso.tt_undelivered_items AS INTEGER)
 		FROM count_of_late_shipment_orders colso
 		INNER JOIN count_of_undelivered_shipment_orders couso 
 		ON colso.common_number = couso.common_number

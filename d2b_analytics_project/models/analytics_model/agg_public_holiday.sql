@@ -26,9 +26,9 @@ WITH public_holiday_dates AS ( SELECT  calendar_dt, month_of_the_year_num, worki
 			
 			FROM series_month_and_default_count AS smadc 
 			LEFT JOIN aggregrate_orders_on_public_holiday AS aooph
-			ON aooph.month_of_the_year_num = smadc.month_number)
+			ON aooph.month_of_the_year_num = smadc.month_number),
 			
-			SELECT CURRENT_DATE AS ingestion_date,MAX(CASE WHEN month_number = 1 AND total_orders IS NOT NULL THEN total_orders
+			columns_needed AS (SELECT CURRENT_DATE AS ingestion_date, MAX(CASE WHEN month_number = 1 AND total_orders IS NOT NULL THEN total_orders
 			ELSE order_count_default END ) AS tt_order_hol_jan, 
 			MAX(CASE WHEN month_number = 2 AND total_orders IS NOT NULL THEN total_orders
 			ELSE order_count_default END) AS tt_order_hol_feb,
@@ -53,6 +53,16 @@ WITH public_holiday_dates AS ( SELECT  calendar_dt, month_of_the_year_num, worki
 			MAX(CASE WHEN month_number = 12 AND total_orders IS NOT NULL THEN total_orders
 			ELSE order_count_default END) AS tt_order_hol_dec
 			
-			FROM series_month_orders_joined
+			FROM series_month_orders_joined)
+
+
+			SELECT ingestion_date, CAST(tt_order_hol_jan AS INTEGER), 
+			CAST(tt_order_hol_feb AS INTEGER), 
+			CAST(tt_order_hol_mar AS INTEGER), CAST(tt_order_hol_apr AS INTEGER),
+			CAST(tt_order_hol_may AS INTEGER), CAST(tt_order_hol_jun AS INTEGER),
+			CAST(tt_order_hol_jul AS INTEGER), CAST(tt_order_hol_aug AS INTEGER),
+			CAST(tt_order_hol_sep AS INTEGER), CAST(tt_order_hol_oct AS INTEGER),
+			CAST(tt_order_hol_nov AS INTEGER), CAST(tt_order_hol_dec AS INTEGER)
+			FROM columns_needed
 			
 							
