@@ -69,66 +69,13 @@ For the percentage of late to early shipments, the query first selects only ship
 
 To provide the stakeholders with actionable insights, the analysis results of the best-performing product are exported to a user-friendly CSV format, allowing for easy visualization and decision-making. The best product CSV is read using Python SQLAlchemy and then exported to the public S3 bucket.
 
-#### 5. Orchestrating the Pipeline with Airflow 
-The pipeline was orchestrated and scheduled using Apache Airflow to ensure daily data retrieval and maintain pipeline reliability. By leveraging Airflow's capabilities, the pipeline was scheduled for daily execution, guaranteeing a consistent flow of data.
-
-#### 6. Dockerizing the Entire Workflow
+#### 5. Dockerizing the Entire Workflow
 
 To ensure the entire workflow can run on any system, Docker is employed to containerize the data engineering pipeline. This allows for easy distribution, seamless execution, and consistency across different environments.
 
 Overall, the implemented data engineering pipeline enables ABC Limited to efficiently process and analyze their data, providing valuable insights for their day-to-day activities and business decisions.
 
 
-## Running the Pipeline
-
-To run the pipeline, follow these steps after ensuring you have Docker installed on your system and have cloned this repository.
-
-### Step 1: Build the Extended Airflow Image
-
-The Airflow image has been extended to include additional tools like DBT that are not installed in the base image. To build the extended image, navigate to the cloned repository folder in your terminal and run the following command:
-
-```
-docker build -t datatwobotsairflowimage:latest .
-```
-
-This command will build the image and tag it as `datatwobotsairflowimage:latest`.
-
-### Step 2: Initialize the Airflow Webserver
-
-Before initializing the Airflow Webserver, you need to ensure that the `AIRFLOW_UID` environment variable is set to `5000`. To do this, run the following command:
-
-```
-echo -e "AIRFLOW_UID=$(id -u)" > .env
-```
-
-This command sets the `AIRFLOW_UID` to the current user's ID to ensure proper permissions within the Docker container.
-
-Next, you should initialize the Airflow database by running the following command:
-
-```
-docker-compose up airflow-init
-```
-
-This command will create the necessary tables in the database for Airflow to work.
-
-### Step 3: Get Airflow Up and Running
-
-To start the Airflow services and get it up and running, run the following command:
-
-```
-docker-compose up
-```
-
-This command will start all the services defined in the `docker-compose.yml` file. Airflow will be accessible through the web interface, which you can access using the specified URL.
-
-## Additional Notes
-
-- The pipeline's configuration and Directed Acyclic Graphs (DAGs) can be modified in the `dags` folder within the cloned repository.
-- Depending on the tasks in your pipeline, ensure that any required dependencies are installed to execute those tasks successfully.
-- Monitoring and managing the pipeline can be done through the Airflow web interface.
-- To stop the services, press `Ctrl + C` in the terminal where you started the pipeline.
-
-Now, you should have the pipeline up and running with Airflow handling the workflows, orchestrating tasks, and ensuring your data processes are executed as defined in your DAGs. Happy data engineering!
 
 #### Things that were not implemented due to time
 - Writing test for the pipeline and using CI/CD
