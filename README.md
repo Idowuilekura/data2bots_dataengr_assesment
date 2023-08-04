@@ -79,11 +79,11 @@ To ensure the entire workflow can run on any system, Docker is employed to conta
 Overall, the implemented data engineering pipeline enables ABC Limited to efficiently process and analyze their data, providing valuable insights for their day-to-day activities and business decisions.
 
 
-## Running the Pipeline
+### Running the Pipeline
 
 To run the pipeline, follow these steps after ensuring you have Docker installed on your system and have cloned this repository.
 
-### Step 1: Build the Extended Airflow Image
+#### Step 1: Build the Extended Airflow Image
 
 The Airflow image has been extended to include additional tools like DBT that are not installed in the base image. To build the extended image, navigate to the cloned repository folder in your terminal and run the following command:
 
@@ -93,7 +93,7 @@ docker build -t datatwobotsairflowimage:latest .
 
 This command will build the image and tag it as `datatwobotsairflowimage:latest`.
 
-### Step 2: Initialize the Airflow Webserver
+#### Step 2: Initialize the Airflow Webserver
 
 Before initializing the Airflow Webserver, you need to ensure that the `AIRFLOW_UID` environment variable is set to `5000`. To do this, run the following command:
 
@@ -111,7 +111,7 @@ docker-compose up airflow-init
 
 This command will create the necessary tables in the database for Airflow to work.
 
-### Step 3: Get Airflow Up and Running
+#### Step 3: Get Airflow Up and Running
 
 To start the Airflow services and get it up and running, run the following command:
 
@@ -120,6 +120,26 @@ docker-compose up
 ```
 
 This command will start all the services defined in the `docker-compose.yml` file. Airflow will be accessible through the web interface, which you can access using the specified URL.
+
+To run the pipeline manually, follow these steps:
+
+1. **Login into the Airflow Webserver**: Open your web browser and navigate to the Airflow Webserver using the provided URL: `http://your-airflow-server-address:8080`.
+
+2. **Authenticate**: Enter the following credentials to log in to the Airflow Webserver:  
+   Username: `airflow`  
+   Password: `airflow`
+
+3. **Access the DAG**: Once logged in, you will be taken to the Airflow dashboard. Look for the `abc_etl_dag` in the list of available Directed Acyclic Graphs (DAGs).
+
+4. **Trigger the DAG**: Click on the `abc_etl_dag` to access its details. You will see various buttons and options related to the DAG.
+
+5. **Manually Start the DAG**: Look for the play button or "Trigger DAG" button. Click on it to manually start the DAG execution.
+
+6. **Monitor the Progress**: After triggering the DAG, you can monitor its progress in the Airflow UI. You will see the individual tasks being executed, and their statuses will be updated in real-time.
+
+7. **View Results**: Once the DAG run is completed, you can view the results and logs of each task to check for any issues or errors that may have occurred during the execution.
+
+Remember that the steps and options in the Airflow Webserver interface may vary slightly based on the version and configuration of your Airflow installation. Make sure you have the necessary permissions to trigger the DAG if you are running in a shared environment.
 
 ## Additional Notes
 
