@@ -65,6 +65,7 @@ The name of the product is obtained by joining the product with the highest revi
 
 For the percentage of late to early shipments, the query first selects only shipment details that do not contain `null` as the shipment date, indicating delivered products. The delivered shipments are then classified as late or early shipments based on whether the shipment date is greater than the order date + 6 days. The query also ensures that neither the early nor late shipment counts are zero, in case there are no late or early shipments. Default values of 0.0 are used for the early shipment and late shipment counts.
 
+DBT Great Expectations was used for writing test to ensure that there are no nulls and that the correct data type are specified. 
 #### 4. Exporting the Best Products
 
 To provide the stakeholders with actionable insights, the analysis results of the best-performing product are exported to a user-friendly CSV format, allowing for easy visualization and decision-making. The best product CSV is read using Python SQLAlchemy and then exported to the public S3 bucket.
@@ -154,6 +155,6 @@ Remember that the steps and options in the Airflow Webserver interface may vary 
 Now, you should have the pipeline up and running with Airflow handling the workflows, orchestrating tasks, and ensuring your data processes are executed as defined in your DAGs. Happy data engineering!
 
 #### Things that were not implemented due to time
-- Writing test for the pipeline and using CI/CD
+- Writing test for the Extract and Load pipeline and using CI/CD with Airflow
 - using Kubernetes for orchestrating the Docker container 
 
