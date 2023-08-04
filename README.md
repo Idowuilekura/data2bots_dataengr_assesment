@@ -72,6 +72,9 @@ To provide the stakeholders with actionable insights, the analysis results of th
 #### 5. Orchestrating the Pipeline with Airflow 
 The pipeline was orchestrated and scheduled using Apache Airflow to ensure daily data retrieval and maintain pipeline reliability. By leveraging Airflow's capabilities, the pipeline was scheduled for daily execution, guaranteeing a consistent flow of data.
 
+In the Airflow pipeline, the process flows through several stages. First, data extraction is performed to gather the required data. Once the extraction is complete, the data is loaded into the target destination. Subsequently, DBT (Data Build Tool) is utilized to execute the analytical processes on the loaded data. Finally, the pipeline concludes with the export of the refined data, ensuring that the best quality data is made available for further use. The pipeline is shown below: 
+
+`extract_data >> load_data >> run_analytics_with_DBT >> export_best_data`
 #### 6. Dockerizing the Entire Workflow
 
 To ensure the entire workflow can run on any system, Docker is employed to containerize the data engineering pipeline. This allows for easy distribution, seamless execution, and consistency across different environments.
