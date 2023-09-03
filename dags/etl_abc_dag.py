@@ -23,6 +23,7 @@ from load_data import load_data_warehouse
 
 from run_dbt_analytics import run_dbt_task
 from export_data import export_best_performing_data
+from test_loading import test_loading_task
 
 
 # from extract_weather import extract_weather_info_save_local
@@ -56,6 +57,9 @@ extract_data_task = PythonOperator(task_id='extract_data_task',
 load_data_task = PythonOperator(task_id = 'load_data_task',
                                 python_callable= load_data_warehouse,
                                 op_kwargs = {'postgres_engine': postgres_engine, 'staging_schema_name':staging_schema_name }, dag=abc_etl_dag)
+
+test_loaded_data_task = PythonOperator(task_id='test_loading_task', 
+                                       python_callable=test_loading_task)
 # run_dbt_task(dbt_directory: str)
 # export_best_performing_data(schema: str, username:str, postgres_engine)
 
@@ -68,6 +72,6 @@ export_best_performing_data_task = PythonOperator(task_id='export_best_data',
                                                   op_kwargs= {'schema':analytic_schema,'username': username, 'postgres_engine':postgres_engine},
                                                   dag= abc_etl_dag)
 
-extract_data_task >> load_data_task >> run_analytics_dbt >> export_best_performing_data_task
+extract_data_task >> load_data_task >> test_loaded_data_task >> run_analytics_dbt >> export_best_performing_data_task
 
 

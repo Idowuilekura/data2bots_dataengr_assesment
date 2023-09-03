@@ -2,4 +2,4 @@
 
 
 SELECT * 
-    FROM {{ source('if_common_source', 'dim_dates')}}
+    FROM {{ source('staging_source', 'dim_dates')}}

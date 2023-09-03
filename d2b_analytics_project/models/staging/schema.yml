@@ -1,19 +1,34 @@
 version: 2.0 
 sources: 
   - name: staging_source
-    database: d2b_accessment
-    schema: idowilek6169_staging
+    database: dosmgkqh
+    schema: dbt_schema
     tables:
       - name: orders
       - name: reviews
       - name: shipment_deliveries
-
-  - name: if_common_source
-    database: d2b_accessment
-    schema: if_common
-    tables: 
       - name: dim_dates
-      - name: dim_products 
+      - name: dim_products
+
+  # - name: if_common_source
+  #   database: d2b_accessment
+  #   schema: if_common
+  #   tables: 
+  #     - name: dim_dates
+  #     - name: dim_products 
 
    
-  
+  # target: staging
+  # outputs:
+  #   staging:
+  #     type: postgres
+  #     host: "silly.db.elephantsql.com"
+  #     user: "dosmgkqh"
+  #     password: "fz1vpdY9kPNssUzw8N9569KcTpm2G0Yb"
+  #     port: 5432
+  #     dbname: "dosmgkqh" # or database instead of dbname
+  #     schema: "dbt_schema"
+  #     threads: 4
+  #     keepalives_idle: 0 # default 0, indicating the system default. See below
+  #     connect_timeout: 10 # default 10 seconds
+  #     retries: 1  # default 1 retry on error/timeout when opening connections

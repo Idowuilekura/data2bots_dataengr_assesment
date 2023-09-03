@@ -1,0 +1,31 @@
+name: test airflow dag 
+
+on: 
+    push:
+        branches: [ "master" ]
+
+permissions:
+    contents: read
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+    
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v2
+        
+            - name: Build the docker image
+              run: |
+                 docker build -t datatwobotsairflowimage:latest -f ../Dockerfile .
+        # - name: Build and Run Services with Docker Compose
+        #   run: |
+        #     docker-compose -f ../docker-compose.yml up -d airflow-init
+        #     docker-compose -f ../docker-compose.yml up
+        
+
+        # - name: Get Docker Container Name
+        #   id: get_container_name
+        #   run: |
+        #     CONTAINER_NAME: $(docker ps --filter )
+

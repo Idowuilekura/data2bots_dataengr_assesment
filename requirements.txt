@@ -5,3 +5,4 @@ dbt-postgres
 boto3
 fsspec 
 s3fs==2021.08.0 
+pytest

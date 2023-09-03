@@ -1,0 +1,26 @@
+[2023-08-04T08:10:24.428+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [queued]>
+[2023-08-04T08:10:24.435+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [queued]>
+[2023-08-04T08:10:24.435+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-04T08:10:24.447+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): export_best_data> on 2023-08-03 00:00:00+00:00
+[2023-08-04T08:10:24.452+0000] {standard_task_runner.py:57} INFO - Started process 731 to run task
+[2023-08-04T08:10:24.454+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'export_best_data', 'scheduled__2023-08-03T00:00:00+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmp5u2qfuak']
+[2023-08-04T08:10:24.455+0000] {standard_task_runner.py:85} INFO - Job 74: Subtask export_best_data
+[2023-08-04T08:10:24.494+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [running]> on host d75389520dc6
+[2023-08-04T08:10:24.560+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='export_best_data' AIRFLOW_CTX_EXECUTION_DATE='2023-08-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-03T00:00:00+00:00'
+[2023-08-04T08:10:31.997+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-04T08:10:32.004+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=export_best_data, execution_date=20230803T000000, start_date=20230804T081024, end_date=20230804T081032
+[2023-08-04T08:10:32.029+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-04T08:10:32.041+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-04T15:36:41.065+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [queued]>
+[2023-08-04T15:36:41.072+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [queued]>
+[2023-08-04T15:36:41.072+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-08-04T15:36:41.084+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): export_best_data> on 2023-08-03 00:00:00+00:00
+[2023-08-04T15:36:41.090+0000] {standard_task_runner.py:57} INFO - Started process 2636 to run task
+[2023-08-04T15:36:41.092+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'abc_data2bot_etl_dag', 'export_best_data', 'scheduled__2023-08-03T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/etl_abc_dag.py', '--cfg-path', '/tmp/tmpz4bqjga9']
+[2023-08-04T15:36:41.093+0000] {standard_task_runner.py:85} INFO - Job 11: Subtask export_best_data
+[2023-08-04T15:36:41.132+0000] {task_command.py:410} INFO - Running <TaskInstance: abc_data2bot_etl_dag.export_best_data scheduled__2023-08-03T00:00:00+00:00 [running]> on host 6eef4b6d916a
+[2023-08-04T15:36:41.204+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='idowu' AIRFLOW_CTX_DAG_ID='abc_data2bot_etl_dag' AIRFLOW_CTX_TASK_ID='export_best_data' AIRFLOW_CTX_EXECUTION_DATE='2023-08-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-08-03T00:00:00+00:00'
+[2023-08-04T15:36:48.699+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-08-04T15:36:48.707+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=abc_data2bot_etl_dag, task_id=export_best_data, execution_date=20230803T000000, start_date=20230804T153641, end_date=20230804T153648
+[2023-08-04T15:36:48.727+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-08-04T15:36:48.741+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

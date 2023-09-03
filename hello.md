@@ -69,12 +69,15 @@ For the percentage of late to early shipments, the query first selects only ship
 
 To provide the stakeholders with actionable insights, the analysis results of the best-performing product are exported to a user-friendly CSV format, allowing for easy visualization and decision-making. The best product CSV is read using Python SQLAlchemy and then exported to the public S3 bucket.
 
-#### 5. Dockerizing the Entire Workflow
+
+#### 5. Orchestrating the Pipeline with Airflow 
+To ensure that the pipeline is schedule daily in order to get the data daily and ensure the reliability of the pipeline. Apache AIrflow was used for orchaestrating the pipeline and 
+
+#### 6. Dockerizing the Entire Workflow
 
 To ensure the entire workflow can run on any system, Docker is employed to containerize the data engineering pipeline. This allows for easy distribution, seamless execution, and consistency across different environments.
 
 Overall, the implemented data engineering pipeline enables ABC Limited to efficiently process and analyze their data, providing valuable insights for their day-to-day activities and business decisions.
-
 
 
 #### Things that were not implemented due to time
