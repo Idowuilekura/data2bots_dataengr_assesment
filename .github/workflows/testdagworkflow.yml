@@ -18,6 +18,7 @@ jobs:
             - name: Build the docker image
               run: |
                  docker build -t datatwobotsairflowimage:latest -f ../Dockerfile .
+              working-directory: ${{github.workspace}}
         # - name: Build and Run Services with Docker Compose
         #   run: |
         #     docker-compose -f ../docker-compose.yml up -d airflow-init
