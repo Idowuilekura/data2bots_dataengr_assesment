@@ -19,14 +19,24 @@ jobs:
               run: |
                  docker build -t datatwobotsairflowimage:latest -f Dockerfile .
               working-directory: ${{github.workspace}}
-        # - name: Build and Run Services with Docker Compose
-        #   run: |
-        #     docker-compose -f ../docker-compose.yml up -d airflow-init
-        #     docker-compose -f ../docker-compose.yml up
-        
+            - name: Build and Run Services with Docker Compose
+              run: |
+                 docker-compose -f ../docker-compose.yml up -d airflow-init
+                 docker-compose -f ../docker-compose.yml up
+              working-directory: ${{github.workspace}}
+            - name: Run Airflow Dag and Pytest
+              run: |
+                docker exec -it webserver_container airflow dags trigger etl_abc_dag
+                docker exec -it webserver_container pytest /app/test/test_load_data.py
+
+            - name: Stop and Remove Services
+              run: docker-compose -f docker-compose.yaml down 
+              working-directory: ${{github.workspace}}
 
         # - name: Get Docker Container Name
         #   id: get_container_name
         #   run: |
         #     CONTAINER_NAME: $(docker ps --filter )
+
+            
 

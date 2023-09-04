@@ -26,6 +26,7 @@ COPY d2b_analytics_project /app/d2b_analytics_project
 
 ENV DBT_PROFILES_DIR /app
 COPY profiles.yml /app/profiles.yml
+COPY test /app/test
 # COPY profiles.yml /root/.dbt/profiles.yml
 
 
