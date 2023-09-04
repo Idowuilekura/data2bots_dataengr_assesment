@@ -21,8 +21,8 @@ jobs:
               working-directory: ${{github.workspace}}
             - name: Build and Run Services with Docker Compose
               run: |
-                 docker-compose -f ../docker-compose.yml up -d airflow-init
-                 docker-compose -f ../docker-compose.yml up
+                 docker-compose -f docker-compose.yml up -d airflow-init
+                 docker-compose -f docker-compose.yml up
               working-directory: ${{github.workspace}}
             - name: Run Airflow Dag and Pytest
               run: |
