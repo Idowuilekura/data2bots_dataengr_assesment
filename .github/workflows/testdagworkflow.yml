@@ -26,8 +26,8 @@ jobs:
               working-directory: ${{github.workspace }}
             - name: Run Airflow Dag and Pytest
               run: |
-                docker exec -it webserver_container airflow dags trigger etl_abc_dag
-                docker exec -it webserver_container pytest /app/test/test_load_data.py
+                docker exec -it trigger_container airflow dags trigger etl_abc_dag
+                docker exec -it trigger_container pytest /app/test/test_load_data.py
 
             - name: Stop and Remove Services
               run: docker-compose -f docker-compose.yaml down 
