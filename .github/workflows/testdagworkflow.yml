@@ -21,7 +21,7 @@ jobs:
               working-directory: ${{ github.workspace }}
             - name: Run the docker image
               run: |
-                 docker run run --it --rm datatwobotsairflowimage:latest -c "airflow trigger_dag dags.etl_abc_dag"
+                 docker run --it --rm datatwobotsairflowimage:latest -c "airflow trigger_dag dags.etl_abc_dag"
               working-directory: ${{ github.workspace }}
             - name: Run Airflow Dag and Pytest
               run: |
