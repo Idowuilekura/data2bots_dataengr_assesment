@@ -23,7 +23,7 @@ jobs:
               run: |
                  docker-compose -f docker-compose.yaml up -d airflow-init
                  docker-compose -f docker-compose.yaml up -d
-              working-directory: ${{github.workspace}}
+              working-directory: ${{github.workspace }}
             - name: Run Airflow Dag and Pytest
               run: |
                 docker exec -it webserver_container airflow dags trigger etl_abc_dag
