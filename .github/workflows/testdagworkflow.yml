@@ -21,11 +21,11 @@ jobs:
               working-directory: ${{ github.workspace }}
             - name: Run the docker image
               run: |
-                 docker run -d --name datatwobot datatwobotsairflowimage:latest
+                 docker run run --it --rm datatwobotsairflowimage:latest -c "airflow trigger_dag dags.etl_abc_dag"
               working-directory: ${{ github.workspace }}
             - name: Run Airflow Dag and Pytest
               run: |
-                docker exec -it datatwobot airflow trigger_dag dags.etl_abc_dag
+                docker exec -it datatwobot bash airflow trigger_dag dags.etl_abc_dag
                 docker exec -it datatwobot pytest /app/test/test_load_data.py
 
             - name: Stop and Remove Services

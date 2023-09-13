@@ -38,8 +38,8 @@ RUN pip install --no-cache-dir --user -r /app/requirements.txt
 
 RUN airflow db init 
 RUN airflow users create --username admin --firstname idowu --lastname ilekura --role Admin --email ilekuraidowu@gmail.com --password admin
-# RUN airflow webserver -D
-RUN airflow scheduler -D
+RUN airflow webserver -D
+# RUN airflow scheduler -D
 # USER dbt 
 
 # RUN dbt debug 
@@ -48,4 +48,4 @@ RUN airflow scheduler -D
 
 EXPOSE 8080
 
-CMD ["airflow","webserver","--daemon"]
+CMD ["airflow","scheduler","--daemon"]
