@@ -27,7 +27,6 @@ COPY d2b_analytics_project /app/d2b_analytics_project
 ENV DBT_PROFILES_DIR /app
 COPY profiles.yml /app/profiles.yml
 COPY test /app/test
-COPY dags /app/dags 
 # COPY profiles.yml /root/.dbt/profiles.yml
 
 
@@ -36,10 +35,6 @@ USER airflow
 
 RUN pip install --no-cache-dir --user -r /app/requirements.txt
 
-RUN airflow db init 
-RUN airflow users create --username admin --firstname idowu --lastname ilekura --role Admin --email ilekuraidowu@gmail.com --password admin
-# RUN airflow webserver -D
-RUN airflow scheduler -D
 # USER dbt 
 
 # RUN dbt debug 
@@ -47,5 +42,3 @@ RUN airflow scheduler -D
 # RUN dbt deps
 
 EXPOSE 8080
-
-CMD ["airflow","webserver","--daemon"]
